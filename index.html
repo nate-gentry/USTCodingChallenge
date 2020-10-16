@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>UST Global Calculator</title>
+</head>
+
+<body>
+    <h1>UST Calculator</h1>
+    <div class="main-div">
+        <div id="main-screen">
+            <div class="screenInput" id="screenInput">
+                <p></p>
+            </div>
+            <div class="screen" id="screen">
+                <p></p>
+            </div>
+        </div>
+
+
+        <ul class="number-div">
+            <li class="clear" id="clear">C</li>
+            <li id="equals">=</li>
+            <li>/</li>
+            <li>x</li>
+
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>-</li>
+
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>+</li>
+
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+
+            <li>0</li>
+            <li class="undo" id='undo'>undo</li>
+            <li>.</li>
+            <li class="enter" id="equals" style="padding: 10px; width: 115px;">enter</li>
+        </ul>
+
+    </div>
+    <div class="rules">
+        <ul style="padding-left: 0px;">
+            <li>Welcome to my friendly calculator </li><br />
+            <li>The calculator can add, subtract, multiply and divide.</li>
+            <li>
+                When the user hits the “=” button or the "enter" button, the result will appear in the result window.
+                If a user would like to save the result before future updates, he/she needs to press "enter" on the
+                keyboard.
+            </li>
+            <li>The calculator respects the order of operations: * and / after will be calculated before + and - </li>
+            <li>To erase a result in the input only, a user has to hit C. To erase a result, a user has to hit Delete.
+                A user can delete any numbers in input, but only before he/she pressed enter. After a user hits enter,
+                the result can be deleted by hitting the Delete button. </li>
+            <li>The user can chain operations either by multiple operations in the window (1 + 2 * 4 / 3)</li>
+        </ul>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

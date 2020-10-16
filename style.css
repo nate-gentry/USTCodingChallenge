@@ -1,0 +1,139 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+* {
+    box-sizing: border-box;
+    font: bold 14px Arial, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 110px;
+    color:#63ccff;
+    margin-top: 0;
+    padding: 20px;
+
+}
+
+
+#main-screen {
+    display: flex;
+}
+
+.main-div {
+    width: 280px;
+    margin: 0 auto;
+    background: #039be5;
+    height: 350px;
+    box-shadow: 2px 2px 2px gray;
+    padding: 15px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 30px 
+}
+
+.screen-div,
+.number-div {
+    padding: 0;
+    margin: 0;
+}
+
+.screenInput {
+    list-style: none;
+    color: white;
+    height: 45px;
+    width: 58px;
+    margin-right: 8px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 8px;
+    width: 182px;
+    background: #63ccff;
+    overflow: hidden;
+}
+
+.screen {
+    list-style: none;
+    color: white;
+    height: 45px;
+    width: 58px;
+    /* margin-left:8px; */
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 8px;
+    width: 182px;
+    background: #63ccff;
+    overflow: hidden;
+}
+
+.number-div li .enter {
+    padding: 19px !important;
+}
+
+.clear {
+    width: 60px;
+    background: #7B8D8E;
+    padding: 10px 17px;
+    position: initial;
+    border-radius: 3px;
+    left: 215px;
+    top: 18px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+#enter {
+    size: 100px;
+}
+.number-div li {
+    list-style: none;
+    float: left;
+    width: 52px;
+    background: white;
+    margin: 9px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color:black;
+    text-align: center;
+    transition: .2s;
+    cursor: pointer;
+}
+.number-div li:hover {
+    background: #63ccff;
+    color: white;
+}
+#equals:hover {
+    background: #006db3;
+    color: white;
+}
+
+
+.rules {
+    width: 635px;
+    margin: 0 auto;
+    background: #039be5;
+    height: 300px;
+    border: 13px solid #006db3;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px gray;
+
+}
+.rules li{
+    
+    list-style: none;
+
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: white
+}
